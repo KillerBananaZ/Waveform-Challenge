@@ -1,0 +1,39 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  font-weight: 400;
+  --var-color-lightest: #e9f5db;
+  --var-color-light: #cfe1b9;
+  --var-color-mid: #97a97c;
+  --var-color-dark: #87986a;
+  --var-color-darkest: #718355;
+  --var-color-fonts-dark: #000;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+button:active,
+a,
+a:active {
+  display: block;
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
